@@ -1,0 +1,21 @@
+CREATE TABLE IF NOT EXISTS Master_Mi_Inspection (
+    prod_lot VARCHAR(15) PRIMARY KEY,
+    ba_1 DECIMAL(18,3),
+    ba_2 DECIMAL(18,3),
+    ba_3 DECIMAL(18,3),
+    ba_4 DECIMAL(18,3),
+    ba_5 DECIMAL(18,3),
+    ps_1 DECIMAL(18,3),
+    ps_2 DECIMAL(18,3),
+    ps_3 DECIMAL(18,3),
+    ps_4 DECIMAL(18,3),
+    ps_5 DECIMAL(18,3),
+    cs_1 VARCHAR(5),
+    cs_2 VARCHAR(5),
+    cs_3 VARCHAR(5),
+    cs_4 VARCHAR(5),
+    cs_5 VARCHAR(5),
+    remarks TEXT,
+    user_name VARCHAR(50),
+    `date` DATETIME DEFAULT CURRENT_TIMESTAMP
+);

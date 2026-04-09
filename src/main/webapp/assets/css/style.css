@@ -1,0 +1,6 @@
+body{font-size:14px;}
+.table td,.table th{white-space:nowrap;font-size:12px}
+.badge.cs-pass{background:#0d6efd}
+.badge.cs-fail{background:#dc3545}
+.badge.cs-warn{background:#fd7e14}
+#trendChart{min-height:280px}
